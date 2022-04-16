@@ -1,0 +1,12 @@
+.texto{
+    color:brown;
+}
+#nombrej{
+    /* border: 3px red ridge; */
+    border-style: solid;
+    border-color: green;
+    border-radius: 100px;
+    border-width: 5px;
+    background-color: black;
+    color: white;
+}
