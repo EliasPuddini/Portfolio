@@ -1,6 +1,12 @@
+
 #presentación {
+    border-radius: 15px;
     background-image: url(img/fondo.jpg);    
     width: 100%;
+    background-color: #272727;
+}
+#UTN {
+    font-size: 25px;
 }
 #cara {
     text-align: center; 
@@ -17,14 +23,22 @@
     font-size: 30px;
     padding-left: 15px;
 }
+p,li{
+    font-size: 20px;
+}
+
 
 #footer{
     width: 100%;
+    bottom: 0;
+    left: 0;
+    
 }
 .footer-contenido{
     width: 100%;
     background: #272727;
     color: #fff;
+ 
     padding-left: 5px;
     bottom: 0;
     left: 0;
