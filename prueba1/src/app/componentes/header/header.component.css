@@ -1,0 +1,15 @@
+#cara {
+    text-align: center; 
+    padding-bottom: 30px;
+}
+#presentación {
+    background-image: url(../../../assets/fondo.jpg);    
+    width: 100%;
+    background-color: #272727;
+}
+#Nombre {
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    padding-left: 15px;
+}
