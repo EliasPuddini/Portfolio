@@ -2,9 +2,15 @@
     text-align: center; 
     padding-bottom: 30px;
 }
+#cara img{
+    margin-top: 75px;
+    height: 200px;
+    border-radius: 100%;
+}
 #presentación {
     background-image: url(../../../assets/fondo.jpg);    
     width: 100%;
+    margin-left: 0px;
     background-color: #272727;
 }
 #Nombre {
