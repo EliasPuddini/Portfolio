@@ -1,13 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+*{
+    font-family: 'Open Sans', sans-serif;
+}
 
-#UTN {
-    font-size: 25px;
+footer{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 200px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    left: 0;
 }
-#Nombre {
-    text-align: center;
-    color: #fff;
-    font-size: 30px;
-    padding-left: 15px;
+.contenido-footer h2{
+    font-size: 3cm;
 }
-p,li{
-    font-size: 20px;
+.contenido-footer h3{
+    font-size: 1.5em;
+}
+.redes-sociales{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1em;
+    width: 300px;
+    
+}
+.redes-sociales i{
+   border: gray solid 3px;
+   padding: 2px;
+   border-radius: 100%; 
 }
