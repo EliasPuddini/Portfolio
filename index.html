@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Bienvenidos a mi portafolio </title>
+    <title>Portfolio </title>
     <link rel="stylesheet" href="estilo.css"/>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,15 +9,112 @@
     <script src="https://kit.fontawesome.com/093ff5925b.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div id="cabecera">
+    <div class="wrapper">
+        <header>
+            <nav class="navbar">
+                <div class="brand">
+                        <h2>E<span>F</span>P</h2>
+                        
+                </div>
+                <ul class="Menu">
+                        <li><a class="active" href="#">Home</a></li>
+                        <li><a href="#about">About me</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+            </nav>
+        </header>
+    <main class="main">
+        <div class="info-content">
+            <h1>Hola, yo soy <span> Elias</span> Puddini</h1>
+            <p>descripción en desarrollo</p>
+            <a download="curriculum Elias Puddini" href="imagenes/curriculum.pdf">
+                <button class="download-CV">
+                    Descargar CV
+                </button>
+            </a>
+        </div>
+        <img src="imagenes/Elías.jpg" alt="Elias Puddini picture"/>
+    </main>
 
     </div>
-    <div id="estudios">
 
+    <div class="about" id="about">
+        <img src="imagenes/about.jpg" alt="Elias Puddini Picture"/>
+    
+        <div class="about-info">
+            <h2>About me</h2>
+            <div class="divider"></div>
+            <p>descripción en proceso</p>
+            <p>descripción en proceso</p>
+            <button class="download-CV">Leer Más</button>
+        </div>
     </div>
-    <div id="tecnologia">
 
+    <div class="portfolio" id="portfolio">
+        <div class="portfolio-headings">
+            <h2>Mi portfolio</h2>
+            <div class="divider"></div>
+        </div>
+        <div class="container">
+            <div class="card">
+                <div class="card_img">
+
+                </div>
+                <div class="card_title">
+                    <h2>Mi primer portfolio</h2>
+                    <p> 
+                        Aun en desarrollo...
+                        <br>
+                        El projecto está en HTML y CSS. Al terminar su diseño, se implementara
+                        en Angular con ayuda de NodeJs.
+                    </p>
+                </div>
+                <div class="card_project-links">
+                    <a href="https://github.com/EliasPuddini/prueba1.git" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a>
+                        <i class="fa-solid fa-code"></i>
+                    </a>
+
+                </div>
+                <div class="project-details-content">
+                    <button class="project-details download-CV">
+                       <a href="">
+                            Project Details
+                        </a>
+                    </button>
+                </div>
+            </div>
+        </div>
     </div>
+
+    <!--<div class="contact-section" id="contacto">
+        <div class="contact-headings">
+            <h2>Mantengase en contacto</h2>
+            <div class="divider"></div>
+        </div>
+        <div class="container-contact">
+            <div class="contact-form">
+                <h3>Enviame un mensaje...</h3>
+            
+                <form class="form-controll">
+                    <input type="text" placeholder="nombre">
+                    <br>
+                    <input type="email" placeholder="email">
+                    <br>
+                    <textarea placeholder="Coloca tu mensaje aqui">
+                    </textarea>
+                    <button class="btn-submit">
+                        Enviar
+                    </button>
+                </form>
+            </div>
+
+        </div>
+
+    </div>-->
 
 </body>
 
@@ -27,10 +124,10 @@
         <h3>Frontend Developer</h5>
     </div>
     <div class="redes-sociales">
-        <a href="https://www.instagram.com/epuddini/"><i class="fa-brands fa-instagram"></i></a>
-        <a href="mailto: epuddini@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+        <a href="https://www.instagram.com/epuddini/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="mailto: epuddini@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
         <a target="_blank" href="https://wa.me/+5491167159084"><i class="fa-brands fa-whatsapp"></i></a>
-        <a href="https://www.linkedin.com/in/el%C3%ADas-puddini-236035205/"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://www.linkedin.com/in/el%C3%ADas-puddini-236035205/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
         
         
     </div>
