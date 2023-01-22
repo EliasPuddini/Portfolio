@@ -21,6 +21,7 @@ body{
     display: flex;
     justify-content: space-between;
     padding: 2em;
+    background-color: #000;
 }
 
 .brand{
@@ -100,6 +101,41 @@ span{
 .main button{
     margin-top: 1em;
 }
+
+
+.resumen-curriculum{
+    background-color: #191c50;
+    color: #fff;
+    height: 60vw;
+}
+
+.listas{
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+    justify-content: space-around;
+}
+.listas ul{
+    padding-left: 3em;
+}
+
+.estudios{
+    display: flex;
+    justify-content: end;
+    margin-left: 1em;
+}
+
+.estudios li{
+    padding: 1em;
+}
+
+
+
+
+
+
+
+
 
 .about{
     display: grid;
